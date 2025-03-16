@@ -71,14 +71,15 @@ connect: {
 #### 2.2 Autoware Setup
 
 ##### Build Autoware
-Follow the [official documentation](https://autowarefoundation.github.io/autoware-documentation/main/installation/autoware/source-installation/) to build Autoware, but use the following command to clone the repository instead:
+Follow the [official documentation](https://autowarefoundation.github.io/autoware-documentation/main/installation/autoware/source-installation/) to build Autoware.
+
+However, when cloning the repository, use the one configured to run vehicles in BeamNG. Use the following command to clone the repository:
 ```bash
 git clone -b beamng https://github.com/peregrine-884/custom_autoware.git
+
 ```
 
-##### If the build fails
-If the build fails, you can use the provided ZIP file containing the `src` directory. Download it from [here](https://drive.google.com/file/d/1Nxo5UGMgvXiMzyajMbKD2x4BSRcBsN8H/view?usp=drive_link) and extract it into your `Autoware` workspace.
-
+After running `vcs import src < autoware.repos`, download the [file](https://drive.google.com/file/d/1Nxo5UGMgvXiMzyajMbKD2x4BSRcBsN8H/view?usp=drive_link), extract it, and place the contents in the `custom_autoware/src` directory.
 
 ##### DDS Configuration
 For DDS configuration, refer to the settings in [this guide](https://autowarefoundation.github.io/autoware-documentation/main/installation/additional-settings-for-developers/network-configuration/dds-settings/)
