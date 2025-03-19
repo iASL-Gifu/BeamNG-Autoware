@@ -2,7 +2,7 @@
 
 # 実行するコマンドとオプションを定義
 EXECUTABLE="./target/release/zenoh-bridge-ros2dds"
-CONFIG_FILE="/home/apollo-22/zenoh-plugin-ros2dds/config/config.json5"
+CONFIG_FILE="./config/config.json5"
 
 # 実行
 if [ -x "$EXECUTABLE" ]; then
