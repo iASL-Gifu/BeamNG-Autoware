@@ -79,7 +79,9 @@ git clone -b beamng https://github.com/peregrine-884/custom_autoware.git
 
 ```
 
-After running `vcs import src < autoware.repos`, download the [file](https://drive.google.com/file/d/1Nxo5UGMgvXiMzyajMbKD2x4BSRcBsN8H/view?usp=drive_link), extract it, and place the contents in the `custom_autoware/src` directory.
+###### If the build fails
+The build may fail due to dependency issues. In that case, use the properly functioning version of the files.
+[File link](https://drive.google.com/file/d/1Bwf8ipxY3FI3f3Yv9tNpfBOWSOCpBduZ/view?usp=drive_link)
 
 ##### DDS Configuration
 For DDS configuration, refer to the settings in [this guide](https://autowarefoundation.github.io/autoware-documentation/main/installation/additional-settings-for-developers/network-configuration/dds-settings/)
