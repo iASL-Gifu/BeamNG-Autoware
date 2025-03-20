@@ -137,7 +137,7 @@
       ////                      - "float" is the maximum frequency in Hertz;
       ////                        if publication rate is higher, downsampling will occur when routing.
       pub_max_frequencies: [
-        "/rate_limitted/control/command/actuation_cmd=10"
+        "/control/command/actuation_cmd=10"
       ],
 
       ////
