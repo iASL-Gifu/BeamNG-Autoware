@@ -79,8 +79,8 @@ git clone -b beamng https://github.com/peregrine-884/custom_autoware.git
 
 ```
 
-###### If the build fails
-The build may fail due to dependency issues. In that case, use the properly functioning version of the files.
+##### If the build fails
+The build may fail due to dependency issues. In that case, use the properly functioning version of the files.  
 [File link](https://drive.google.com/file/d/1Bwf8ipxY3FI3f3Yv9tNpfBOWSOCpBduZ/view?usp=drive_link)
 
 ##### DDS Configuration
